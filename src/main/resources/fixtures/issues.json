@@ -1,0 +1,50 @@
+[
+  {
+    "key": "DEMO-1",
+    "summary": "Password reset link expires immediately",
+    "description": "A newly requested password reset email contains a link that reports expired when opened within one minute.",
+    "status": "OPEN",
+    "priority": "HIGH",
+    "labels": ["account", "bug"]
+  },
+  {
+    "key": "DEMO-2",
+    "summary": "New password reset email has an expired link",
+    "description": "Requesting a password reset sends an email, but opening its link immediately shows an expired token error.",
+    "status": "OPEN",
+    "priority": "MEDIUM",
+    "labels": ["account", "bug"]
+  },
+  {
+    "key": "DEMO-3",
+    "summary": "Board filter is lost after browser refresh",
+    "description": "Filtering a board by assignee works until the browser refreshes. The board then displays all assignees again.",
+    "status": "IN_PROGRESS",
+    "priority": "MEDIUM",
+    "labels": ["board", "bug"]
+  },
+  {
+    "key": "DEMO-4",
+    "summary": "Refreshing the board clears the selected assignee filter",
+    "description": "The selected assignee filter resets when refreshing the board page, showing issues for everyone.",
+    "status": "OPEN",
+    "priority": "MEDIUM",
+    "labels": ["board", "bug"]
+  },
+  {
+    "key": "DEMO-5",
+    "summary": "Add a keyboard shortcut for creating an issue",
+    "description": "Allow users to open the create issue form from the keyboard without using the mouse.",
+    "status": "OPEN",
+    "priority": "LOW",
+    "labels": ["accessibility", "enhancement"]
+  },
+  {
+    "key": "DEMO-6",
+    "summary": "Document CSV export column names",
+    "description": "Describe each exported column and provide a small example in the user documentation.",
+    "status": "DONE",
+    "priority": "LOW",
+    "labels": ["documentation"]
+  }
+]

@@ -1,0 +1,15 @@
+/target/
+*.log
+__pycache__/
+.DS_Store
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.env
+.env.*
+!.env.example
+/.local-notes/
+*.py[cod]
